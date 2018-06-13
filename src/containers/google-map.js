@@ -22,7 +22,6 @@ class GoogleMap extends Component {
 
     window.google.maps.event.addListener(this.map, 'click', event => {
       const {lat, lng} = event.latLng
-      const latLng = new window.google.maps.LatLng(lat(), lng());
       this.props.fetchWeatherByCoords(lat(), lng());
     });
   };
