@@ -1,4 +1,4 @@
-#react-weather-charts
+# react-weather-map
 
 Retrieves weather data for a city or a coordinate from the [Open Weather Map API](https://openweathermap.org/) based on a user search or map click.
 
