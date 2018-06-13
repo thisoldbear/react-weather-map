@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
 
+import SearchBar from './search-bar';
+import WeatherDetails from './weather-details';
+
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>Hello</h1>
+        <SearchBar />
+        <WeatherDetails />
       </div>
     );
   }

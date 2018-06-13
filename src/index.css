@@ -3,3 +3,23 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.search-bar {
+  padding: 30px;
+}
+
+.search-bar__input {
+  width: 100%;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.search-bar__btn {
+  display: block;
+  width: 100%;
+}
+
+.weather-details {
+  padding: 30px;
+  text-align: center;
+}
